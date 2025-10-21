@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "^5.0.0",
+    "@xyflow/react": "12.6.4",
+    "papaparse": "5.5.3",
+    "d3-force": "3.0.0",
+    "webcola": "3.4.0"
+  },
+  "main": "/index.js",
+  "devDependencies": {},
+  "name": "hhxgf4",
+  "description": null,
+  "version": "0.0.571",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
