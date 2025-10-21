@@ -6,7 +6,7 @@ export const useData = () => {
   const [fields, setFields] = useState(null);
 
   useEffect(() => {
-    const url = "/relations.csv";
+    const url = "./relations.csv";
     Papa.parse(url, {
       download: true,
       header: true,
