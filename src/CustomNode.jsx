@@ -31,7 +31,7 @@ export default memo(({ data }) => {
             style={{ width: 200 }}
             src={`./${data.label?.toLowerCase()}.webp`}
             alt={data.label}
-            onError={(e) => (e.currentTarget.src = `/Default.png`)}
+            onError={(e) => (e.currentTarget.src = `./Default.png`)}
           />
         </div>
         {data.label}
