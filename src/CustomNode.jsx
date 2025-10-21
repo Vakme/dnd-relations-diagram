@@ -29,7 +29,7 @@ export default memo(({ data }) => {
         <div>
           <img
             style={{ width: 200 }}
-            src={`/${data.label?.toLowerCase()}.webp`}
+            src={`./${data.label?.toLowerCase()}.webp`}
             alt={data.label}
             onError={(e) => (e.currentTarget.src = `/Default.png`)}
           />
